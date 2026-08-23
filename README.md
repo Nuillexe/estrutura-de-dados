@@ -1,40 +1,42 @@
 # ☕ Data Structures in Java
 
-Repositório dedicado à implementação de Estruturas de Dados clássicas em Java (Estáticas e Dinâmicas), utilizando boas práticas de Programação Orientada a Objetos, Abstração via Interfaces e Padrão DAO (*Data Access Object*).
+Repositório desenvolvido durante as aulas da disciplina de **Estruturas de Dados** do curso de Bacharelado em Sistemas de Informação (BSI) no **IFBA**, referente ao semestre **2025.2**.
+
+Para começar a explorar os códigos, basta acessar a pasta [`src`](src/).
 
 ---
 
 ## 📌 Estruturas Implementadas
 
 ### 🔹 Interfaces (Contratos)
-- `Empilhavel`: Operações de Pilha (LIFO)
-- `Enfileiravel`: Operações de Fila (FIFO)
-- `DuplamenteEnfileiravel`: Operações de Deque
-- `Listavel`: Operações de Lista Indexada
+- `Empilhavel`: Operações para Pilha (LIFO)
+- `Enfileiravel`: Operações para Fila (FIFO)
+- `DuplamenteEnfileiravel`: Operações para Deque
+- `Listavel`: Operações para Lista Indexada
 
-### 🔹 Estruturas Estáticas
+### 🔹 [Estruturas Estáticas](src/repository/estaticas)
 - **Pilha Estática**: `PilhaEstatica` / `PilhaEstaticaGenerica<T>`
 - **Fila Estática Circular**: `FilaEstatica` / `FilaEstaticaGenerica<T>`
 - **Lista Estática**: `ListaEstatica` / `ListaEstaticaGenerica<T>`
 
-### 🔹 Estruturas Dinâmicas (Em progresso)
-- **Nó / Encadeamento**: `No`
+### 🔹 [Estruturas Dinâmicas](src/repository/dinamicas)
+- **Nó Duplo**
 - **Pilha Dinâmica**: `PilhaDinamica`
-- **Fila Dinâmica**: `FilaDinamica`
+- **Fila Dinâmica**: `FilaDinamica` e `FilaDinamicaComDuplaTerminação`
+- **Lista Dinâmica**: `ListaDinamica`
+
+### 🔹 [Árvores](src/repository/arvores)
+- **Nó Triplo**
+- **Árvore Binária de Pesquisa (BST)**
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 📂 [Classes DAO](src/dao)
+Módulos práticos desenvolvidos para aplicar e consolidar o uso das estruturas de dados em cenários do mundo real (Padrão *Data Access Object*).
+
+---
+
+## 🛠️ Tecnologias e Conceitos
 - **Linguagem**: Java (JDK 17+)
-- **IDE**: IntelliJ / VS Code / Eclipse
-- **Conceitos**: POO, Generics, Tratamento de Exceções, Padrão DAO
-
----
-
-## 🚀 Como Executar
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/Nuillexe/data-structures-java.git](https://github.com/Nuillexe/data-structures-java.git)
-Abra o projeto na sua IDE Java preferida.
-
-Execute as classes da camada dao ou main para testar os comportamentos.
+- **Ambiente de Desenvolvimento**: IntelliJ IDEA / VS Code / Eclipse
+- **Conceitos Aplicados**: Orientação a Objetos (POO), Generics, Tratamento de Exceções, Ponteiros e Referências, Padrão DAO.
