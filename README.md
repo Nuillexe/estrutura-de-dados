@@ -4,6 +4,13 @@ Repositório desenvolvido durante as aulas da disciplina de **Estruturas de Dado
 
 Para começar a explorar os códigos, basta acessar a pasta [`src`](src/).
 
+Durante essa disciplina, também foram desenvolvidos dois projetos práticos para aplicar os conhecimentos aprendidos:
+
+-[`LibQueue: Sistema de Gerenciamento de Biblioteca`](#https://github.com/Nuillexe/school-library-manager/tree/main): Utilização de listas e fila de prioridade 
+
+-[`ChatTree:`](https://github.com/Nuillexe/chat-tree): Forum de conversa baseado em arvore
+
+
 ---
 
 ## 📌 Estruturas Implementadas
