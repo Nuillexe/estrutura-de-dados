@@ -1,6 +1,5 @@
 package Prova2026_1_Tipo_1.Monitoria16_do_9_26;
 
-import repository.estaticas.fila.FilaEstatica;
 
 import java.time.LocalDate;
 
